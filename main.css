@@ -1,0 +1,25 @@
+#body {
+  background-image: url("https://img.picui.cn/free/2024/06/22/6676b614e3c7f.jpg");
+  background-size: cover;
+}
+#maincard{
+    background-color: #aabfe3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    position: absolute;
+}
+#text{
+    font-family: ProductSans;
+    font-size:large;
+}
+@font-face{
+    font-family: ProductSans;
+    src: url(https://lmx.icu/ProductSans.ttf);
+}
+.alignright {
+    display: inline;
+    float: right;
+}
