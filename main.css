@@ -1,6 +1,15 @@
-#body {
-  background-image: url("https://img.picui.cn/free/2024/06/22/6676b614e3c7f.jpg");
-  background-size: cover;
+/*.mdui-theme-light{
+    background-color:#aabfe3;
+}
+.mdui-theme-dark{
+    background-color:#1b1b1f;
+}*/
+#avatar {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 7%;
 }
 #maincard{
     background-color: #aabfe3;
@@ -11,7 +20,15 @@
     margin:auto;
     position: absolute;
 }
+#rightcard{
+    margin-right:37%;
+    position: absolute;
+}
 #text{
+    font-family: Noto Sans SC;
+    font-size:large;
+}
+#texttitle{
     font-family: ProductSans;
     font-size:large;
 }
@@ -19,7 +36,36 @@
     font-family: ProductSans;
     src: url(https://lmx.icu/ProductSans.ttf);
 }
-.alignright {
-    display: inline;
-    float: right;
+#lefthide{
+    background-color: #aabfe3;
+}
+#name{
+    margin: auto;
+    font-family: ProductSans;
+    font-size:medium;
+    color: #33353e;
+}
+#aboutme{
+    font-family: Noto Sans SC;
+    font-size: medium;
+    margin-left: 5%;
+}
+#undername{
+    font-size: small;
+}
+#emailicon{
+    display: block;
+    margin: auto;
+}
+#mduibutton{
+    margin-left: 5%;
+    display: flex;
+}
+#bottom{
+    display: flex;
+    font-family: ProductSans;
+    margin-bottom: 10%;
+}
+#left_text_bottom{
+    margin-bottom: 3%;
 }
